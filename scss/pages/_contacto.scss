@@ -1,0 +1,58 @@
+form{
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: black;
+    color: white;
+
+    label{
+        width: 72px;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    input[type="text"],
+    input[type="email"]{
+        width: 100px;
+        padding: 3px 10px;
+        border: 1px solid white;
+        border-radius: 3px;
+        background-color: white;
+        margin: 8px 0;
+        display: inline-block;
+    }
+
+    input[type="submit"]{
+        width: 100%;
+        padding: 8px 16px;
+        margin-top: 32px;
+        border: 1px solid black;
+        border-radius: 5px;
+        color: white;
+        background-color: black;
+    }
+
+    textarea{
+        width: 100%;
+        height: 100%;
+        border: 1px solid white;
+        border-radius: 3px;
+        background-color: white;
+        margin: 8px 0;
+        resize: none;
+        display: block;
+    }
+}
+
+.centrar{
+    text-align: center;
+}
+
+.color-white{
+    color: white;
+}
+
+.centrar{
+    text-align: center;
+}
